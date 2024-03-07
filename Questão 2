@@ -1,0 +1,20 @@
+def fibonacci_sequence(n):
+
+fib_sequence[-1] <=n;
+
+fib_sequence.append(fib_sequence [-1] + fib_sequence [-2])
+
+return fib_sequence
+
+def verifica_fibonacci(num):
+
+fib_sequence= fibonacci_sequence(num)
+
+if numero in fib_sequence:
+
+return f"(num) pertence a sequencia Fibonacci."
+
+else: return f"(num) não pertence a sequência Fibonacci."
+
+num= int(input("informe um número: "))
+print(verifica_fibonacci(num))
